@@ -3,8 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@color/white"
+    android:orientation="vertical"
     tools:context=".FirstMainActivity">
 
     <FrameLayout
@@ -19,7 +19,7 @@
             android:gravity="center"
             android:text="--课程学习--"
             android:textColor="@color/lightgray"
-            android:textSize="25dp" />
+            android:textSize="26sp" />
 
         <FrameLayout
             android:layout_width="match_parent"

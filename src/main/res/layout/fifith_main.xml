@@ -17,7 +17,7 @@
             android:gravity="center_vertical"
             android:text="Android学习测试系统"
             android:textColor="@color/lightgray"
-            android:textSize="26dp" />
+            android:textSize="26sp" />
 
         <FrameLayout
             android:layout_width="match_parent"
@@ -44,7 +44,10 @@
             android:id="@+id/txt_Question"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp" />
+            android:layout_margin="10dp"
+            android:text="fhakjhfki"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
 
         <CheckBox
             android:id="@+id/checkbox_A"
@@ -52,7 +55,9 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:text="gfhajkhk" />
+            android:text="gfhajkhk"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
 
         <CheckBox
             android:id="@+id/checkbox_B"
@@ -60,7 +65,9 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:text="gfhajkhk" />
+            android:text="gfhajkhk"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
 
         <CheckBox
             android:id="@+id/checkbox_C"
@@ -68,7 +75,9 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:text="gfhajkhk" />
+            android:text="gfhajkhk"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
 
         <CheckBox
             android:id="@+id/checkbox_D"
@@ -76,7 +85,9 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:text="gfhajkhk" />
+            android:text="gfhajkhk"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -97,7 +108,7 @@
             android:background="@drawable/btn_selector"
             android:text="上一题"
             android:textColor="@color/white"
-            android:textSize="23dp" />
+            android:textSize="23sp" />
 
         <Button
             android:id="@+id/btn_Submit"
@@ -108,7 +119,7 @@
             android:background="@drawable/btn_selector"
             android:text=" 交 卷 "
             android:textColor="@color/white"
-            android:textSize="23dp" />
+            android:textSize="23sp" />
 
         <Button
             android:id="@+id/btn_Next"
@@ -119,7 +130,7 @@
             android:background="@drawable/btn_selector"
             android:text="下一题"
             android:textColor="@color/white"
-            android:textSize="23dp" />
+            android:textSize="23sp" />
     </LinearLayout>
 
     <TextView
@@ -130,5 +141,6 @@
         android:layout_margin="10dp"
         android:gravity="right|bottom"
         android:text="fhaihf"
-        android:textSize="25dp" />
+        android:textColor="@color/black"
+        android:textSize="25sp" />
 </RelativeLayout>

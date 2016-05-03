@@ -51,7 +51,7 @@ public class ThirdMainActivity extends Activity {
     }
 
     public List<Map<String, Object>> recList() {
-        for (int i = 0; i < 20; i++) {
+        for (int i = 0; i < 9; i++) {
             Map<String, Object> map = new HashMap<>();
             map.put("img", ImgID[0]);
             map.put("txt", "" + i);

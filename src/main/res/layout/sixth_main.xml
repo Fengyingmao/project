@@ -18,7 +18,7 @@
             android:gravity="center"
             android:text="--错题回顾--"
             android:textColor="@color/lightgray"
-            android:textSize="26dp" />
+            android:textSize="26sp" />
 
         <FrameLayout
             android:layout_width="match_parent"
@@ -46,7 +46,10 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:layout_marginTop="10dp" />
+            android:layout_marginTop="10dp"
+            android:text="fae;jfj"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
 
         <CheckBox
             android:id="@+id/checkbox_A"
@@ -54,7 +57,9 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:text="gfhajkhk" />
+            android:text="gfhajkhk"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
 
         <CheckBox
             android:id="@+id/checkbox_B"
@@ -62,7 +67,9 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:text="gfhajkhk" />
+            android:text="gfhajkhk"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
 
         <CheckBox
             android:id="@+id/checkbox_C"
@@ -70,7 +77,9 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:text="gfhajkhk" />
+            android:text="gfhajkhk"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
 
         <CheckBox
             android:id="@+id/checkbox_D"
@@ -78,14 +87,17 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:text="gfhajkhk" />
+            android:text="gfhajkhk"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="答案解析："
-            android:textSize="20dp" />
+            android:textColor="@color/black"
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/txt_Anwser"
@@ -93,7 +105,10 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:layout_marginTop="10dp" />
+            android:layout_marginTop="10dp"
+            android:text="hfakjhkfl"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -114,7 +129,7 @@
             android:background="@drawable/btn_selector"
             android:text="上一题"
             android:textColor="@color/white"
-            android:textSize="23dp" />
+            android:textSize="23sp" />
 
         <Button
             android:id="@+id/btn_Delete"
@@ -125,7 +140,7 @@
             android:background="@drawable/btn_selector"
             android:text="删除错题"
             android:textColor="@color/white"
-            android:textSize="23dp" />
+            android:textSize="23sp" />
 
         <Button
             android:id="@+id/btn_Next"
@@ -136,6 +151,6 @@
             android:background="@drawable/btn_selector"
             android:text="下一题"
             android:textColor="@color/white"
-            android:textSize="23dp" />
+            android:textSize="23sp" />
     </LinearLayout>
 </RelativeLayout>

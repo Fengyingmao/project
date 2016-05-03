@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
-    android:orientation="vertical">
+    android:background="@color/white">
 
     <FrameLayout
+        android:id="@+id/framelaout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/gray">
@@ -17,7 +17,7 @@
             android:gravity="center_vertical"
             android:text="Android学习测试系统"
             android:textColor="@color/lightgray"
-            android:textSize="26dp" />
+            android:textSize="26sp" />
 
         <FrameLayout
             android:layout_width="match_parent"
@@ -33,9 +33,18 @@
         </FrameLayout>
     </FrameLayout>
 
-    <GridView
-        android:id="@+id/gridView"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:numColumns="3" />
-</LinearLayout>
+        android:layout_height="match_parent"
+        android:layout_below="@+id/framelaout"
+        android:gravity="center">
+
+        <GridView
+            android:id="@+id/gridView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="3"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="16dp" />
+    </LinearLayout>
+</RelativeLayout>

@@ -23,7 +23,7 @@
             android:gravity="center"
             android:text="fbj"
             android:textColor="@color/white"
-            android:textSize="30dp" />
+            android:textSize="30sp" />
     </FrameLayout>
 
     <TextView
@@ -36,5 +36,5 @@
         android:layout_marginTop="4dp"
         android:gravity="center_vertical"
         android:text="jajahah"
-        android:textSize="28dp" />
+        android:textSize="28sp" />
 </LinearLayout>
